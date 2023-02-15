@@ -3,7 +3,7 @@
 
   @apply border border-solid;
   @apply bg-white border-gray-300;
-  @apply dark:bg-dark-700 dark:border-gray-400;
+  @apply dark:border-gray-400;
 }
 
 .sbui-toast-container--sm {

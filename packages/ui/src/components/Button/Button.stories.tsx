@@ -4,7 +4,7 @@
 // import customThemeExample from '../../lib/theme/customThemeExample'
 
 import { useRef, useState } from 'react'
-import { Button, IconPackage, IconChevronRight } from './../../index'
+import { Button, IconPackage, IconChevronRight } from './../../../index'
 
 export default {
   title: 'General/Button',

@@ -56,7 +56,7 @@ const Card = (props: Props) => {
       target="_blank"
       className="relative flex transform flex-col overflow-hidden rounded-md shadow-lg transition hover:-translate-y-1 hover:shadow-2xl"
     >
-      <div className="dark:bg-dark-800 flex-shrink-0">
+      <div className="dark:bg-scale-1800 flex-shrink-0">
         <img className="h-64 w-full object-cover" src={imgUrl} alt={title} />
       </div>
       <div className="dark:bg-scale-300 flex flex-1 flex-col justify-between bg-white p-8">
@@ -66,11 +66,11 @@ const Card = (props: Props) => {
               {iconMarkup}
             </div>
           )} */}
-          <p className="font-base dark:text-dark-300 text-sm capitalize text-gray-600">{type}</p>
+          <p className="font-base dark:text-scale-1300 text-sm capitalize text-gray-600">{type}</p>
           <div className="mt-2 flex h-32 flex-col justify-between">
             {/* {logoUrl && <img src={logoUrl} className="h-9 my-4" />} */}
             {title && <p className="text-xl text-gray-900 dark:text-white">{title}</p>}
-            <p className="dark:text-dark-400 mt-3 text-base text-gray-500">
+            <p className="dark:text-scale-1400 mt-3 text-base text-gray-500">
               {type !== 'Project Example' ? postMeta.publishDate : description}
             </p>
           </div>
@@ -83,7 +83,7 @@ const Card = (props: Props) => {
             </div>
             <div className="ml-3">
               <p className="text-sm font-medium text-gray-900 dark:text-white">{postMeta.name}</p>
-              <div className="dark:text-dark-100 flex space-x-1 text-sm text-gray-500">
+              <div className="dark:text-scale-1100 flex space-x-1 text-sm text-gray-500">
                 <time dateTime="2020-03-16">{postMeta.publishDate}</time>
                 <span aria-hidden="true">&middot;</span>
                 <span>{postMeta.readLength} min read</span>

@@ -6,13 +6,13 @@
 }
 
 .sbui-divider-vertical {
-  @apply bg-gray-200 dark:bg-dark-500;
+  @apply bg-gray-200 dark:bg-scale-1500;
   width: 1px;
   height: inherit;
 }
 
 .sbui-divider-vertical.sbui-divider--light {
-  @apply bg-gray-100 dark:bg-dark-600;
+  @apply bg-gray-100 dark:bg-scale-1600;
 }
 
 .sbui-divider--no-text {
@@ -24,7 +24,7 @@
 .sbui-divider > span {
   @apply text-sm;
   @apply text-gray-300;
-  @apply dark:text-dark-400;
+  @apply dark:text-scale-1400;
   display: inline-block;
   padding: 0 1em;
 }
@@ -97,5 +97,5 @@
 
 .sbui-divider--light.sbui-divider > span {
   @apply text-gray-200;
-  @apply dark:text-dark-800;
+  @apply dark:text-scale-1800;
 }
